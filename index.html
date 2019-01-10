@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <script type="text/javascript"> 
+            var totalCount = 10;
+            function ChangeIt() 
+            {
+                var num = Math.ceil( Math.random() * totalCount );
+                document.body.background = 'images/'+num+'.jpg';
+                document.body.style.backgroundSize = "cover";// Background repeat
+            }
+        </script>
+        <title>ATS Lab</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body> <section>
+        <table class="CenterTable">
+            <thead>
+            <tr>
+            <th>Project</th>
+            <th>Code Repo</th>
+            <th>Project Lead</th>
+            <th>Description</th>
+            <th>More Info</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>OS Metrics Collector</td><td><a href="https://github.com/atssteve/perf_collector">Link</a></td><td>Steve Horan</td><td>Agent for collecting performance statistics without ETL. 100% pluggable.</td><td>Link</td></tr>
+            <tr>
+            <td>Spectrum Protect Metrics Collector</td><td><a href="https://github.com/awojnarek/sp_data_collector">Link</a></td><td>Andy Wojnarek</td><td>Agent for collecting statistics from Spectrum Protect. Feeds to Galileo.</td><td>Link</td></tr>
+            <tr>
+            <td>AWS Cost Collector</td><td>N/A (Q2?)</td><td>Steve Horan</td><td>Collect data from the AWS Cost Explorer and export to Galileo/Splunk/Statsd</td><td>Link</td></tr>
+            <tr>
+            <td></td><td></td><td></td><td></td></tr>
+            </tbody>
+            </tr>
+            </table>
+    </section></body> 
+
+    <script type="text/javascript">ChangeIt();</script> 
+
+</html>

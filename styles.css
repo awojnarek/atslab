@@ -1,0 +1,60 @@
+table.CenterTable {
+    font-family: "Courier New", Courier, monospace;
+    border: 2px solid #79CAE0;
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  table.CenterTable td, table.CenterTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+  }
+  table.CenterTable tbody td {
+    font-size: 13px;
+  }
+  table.CenterTable tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.CenterTable thead {
+    background: #3C82BA;
+    background: -moz-linear-gradient(top, #6da1cb 0%, #4f8ec1 66%, #3C82BA 100%);
+    background: -webkit-linear-gradient(top, #6da1cb 0%, #4f8ec1 66%, #3C82BA 100%);
+    background: linear-gradient(to bottom, #6da1cb 0%, #4f8ec1 66%, #3C82BA 100%);
+    border-bottom: 2px solid #444444;
+  }
+  table.CenterTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-left: 2px solid #D0E4F5;
+  }
+  table.CenterTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.CenterTable tfoot td {
+    font-size: 14px;
+  }
+  table.CenterTable tfoot .links {
+    text-align: right;
+  }
+  table.CenterTable tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+
+
+section {
+    background: black;
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
