@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <script type="text/javascript"> 
+            var totalCount = 8;
+            function ChangeIt() 
+            {
+                var num = Math.ceil( Math.random() * totalCount );
+                document.body.background = '../images/'+num+'.jpg';
+                document.body.style.backgroundSize = "cover";// Background repeat
+            }
+        </script>
+        <title>OS Metrics Collector</title>
+        <link rel="stylesheet" type="text/css" href="../styles.css">
+    </head>
+    <body>
+        <section>
+            <div>
+            OS Metrics Collector is a project born out of the following principles:
+            <dl>
+            <dt>+ Remove the idea of "collect it messy and throw it over the ETL fence"</dt>
+            <dt>+ Three P's: Powerful, Performant and Pluggable</dt>
+            <dt>+ A single codebase that provides native binaries for (x86/Power/ARM):</dt>
+                <dd>- Linux</dd>
+                <dd>- AIX</dd>
+                <dd>- Windows</dd>
+                <dd>- MacOS</dd>
+                <dd>- OpenBSD</dd>
+                <dd>- Solaris</dd>
+            <dt>+ No reliance on outside binaries. The only current outside libraries used are:
+                <dd>- gopsutil (provide basic cpu/memory/disk/network metrics cross platform)</dd>
+                <dd>- viper    (provide configurations)</dd>
+                <dd>- cobra    (provide command-line flags / organization)</dd>
+            <dt>+ Innovative features (gap fillers):</dt>
+                <dd>- "Near real-time" collection</dd>  
+                <dd>- ASCII historical graphs on CLI</dd>
+                <dd>- Immediate and instantaneous Galileo support</dd>
+                <dd>- Node-level Zabbix/Service Now support</dd>
+            </dl>
+            </div>
+            <br><a href="http://lab.atsgroup.io"><-BACK</a>
+        </section>
+    </body>
+    <script type="text/javascript">ChangeIt();</script> 
+
+    </html>

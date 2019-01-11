@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <script type="text/javascript"> 
+            var totalCount = 10;
+            function ChangeIt() 
+            {
+                var num = Math.ceil( Math.random() * totalCount );
+                document.body.background = '../images/'+num+'.jpg';
+                document.body.style.backgroundSize = "cover";// Background repeat
+            }
+        </script>
+        <title>API Metrics Collector</title>
+        <link rel="stylesheet" type="text/css" href="../styles.css">
+    </head>
+    <body>
+        <section>
+            <div>
+            WORK IN PROGRESS: API Metrics Collector is a project born out of the following principles:
+            <dl>
+            <dt>+ Remove the idea of "collect it messy and throw it over the ETL fence"</dt>
+            <dt>+ Three P's: Powerful, Performant and Pluggable</dt>
+            <dt>+ A single codebase that provides native binaries for (x86/Power/ARM):</dt>
+                <dd>- Linux</dd>
+                <dd>- AIX</dd>
+                <dd>- Windows</dd>
+                <dd>- MacOS</dd>
+                <dd>- OpenBSD</dd>
+                <dd>- Solaris</dd>
+            <dt>+ Any REST API. From zero to Galileo/Splunk/Whatever charts in under an hour.
+            <dt>+ Innovative features (gap fillers):</dt>
+                <dd>- "Near real-time" collection</dd>  
+                <dd>- ASCII historical graphs on CLI</dd>
+                <dd>- Immediate and instantaneous Galileo support</dd>
+                <dd>- Any REST API is now able to be a Galileo integration</dd>
+            </dl>
+            </div>
+        </section>
+    </body>
+    <script type="text/javascript">ChangeIt();</script> 
+
+    </html>

@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <script type="text/javascript"> 
+            var totalCount = 10;
+            function ChangeIt() 
+            {
+                var num = Math.ceil( Math.random() * totalCount );
+                document.body.background = '../images/'+num+'.jpg';
+                document.body.style.backgroundSize = "cover";// Background repeat
+            }
+        </script>
+        <title>Spectrum Protect Metrics Collector</title>
+        <link rel="stylesheet" type="text/css" href="../styles.css">
+    </head>
+    <body>
+        <section>
+            <div>
+            Spectrum Protect Metrics Collector is a project born out of the following principles:
+            <dl>
+            <dt>+ Spectrum Protect is (one of) our core technologies and deserves a robust agent.</dt>
+            <dt>+ Three P's: Powerful, Performant and Pluggable</dt>
+            <dt>+ A single codebase that provides native binaries for (x86/Power/ARM):</dt>
+                <dd>- Linux</dd>
+                <dd>- AIX</dd>
+                <dd>- Windows</dd>
+                <dd>- MacOS</dd>
+                <dd>- OpenBSD</dd>
+                <dd>- Solaris</dd>
+            <dt>+ Reliance on OC</dt>
+            <dt>+ No reliance on outside binaries. The only current outside libraries used are:
+                <dd>- viper    (provide configurations)</dd>
+                <dd>- cobra    (provide command-line flags / organization)</dd>
+            <dt>+ Innovative features (gap fillers):</dt>
+                <dd>- "Near real-time" collection</dd>  
+                <dd>- Compression percentage by day/month/year</dd>
+                <dd>- Dedupe percentage by day/month/year</dd>
+                <dd>- Total raw nightly data ingestion</dd>
+                <dd>- SP Administrative metrics: reclaimation times, replications etc.</dd>
+                <dd>- Full Actlog analysis</dd>
+            </dl>
+            </div>
+        </section>
+    </body>
+    <script type="text/javascript">ChangeIt();</script> 
+
+    </html>
